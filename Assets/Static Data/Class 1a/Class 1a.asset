@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41645d1a3e9f7f247a23f3677fd2d9c5, type: 3}
+  m_Name: Class 1a
+  m_EditorClassIdentifier: 
+  name: 1a
+  students:
+  - {fileID: 11400000, guid: eae65a84b93536c4eb5f1e928aff3d05, type: 2}
+  - {fileID: 11400000, guid: 34ccab14b8d5dd840974b102800e0fb8, type: 2}
+  - {fileID: 11400000, guid: a1a53b94967d18b49b1f937b16320001, type: 2}
+  teacher: {fileID: 11400000, guid: 1e2da31554de2474c9f59afd321c2ba0, type: 2}
+  timetable:
+  - startTime:
+      day: 0
+      hour: 8
+      minute: 5
+    endTime:
+      day: 0
+      hour: 8
+      minute: 50
+    subject: 2
